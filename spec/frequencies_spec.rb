@@ -1,3 +1,5 @@
+require 'frequencies'
+
 describe Frequencies do
   describe '#soundwave' do
     it "should return the given soundwaves if within range of frequencies" do
