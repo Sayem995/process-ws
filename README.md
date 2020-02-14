@@ -1,5 +1,6 @@
 #Plan:
- ``i work for a company that makes digital audio plugins
+
+ I work for a company that makes digital audio plugins
  Apply filters to change how the track sounds
  Write a band pass filter
 
@@ -11,4 +12,8 @@
  use these limits to prevent the frequencies outside the range
  if its lower than the lower limit, return lower limit
  if its above the upper limit, return upper limit
- input value - the value that is the modified sound wave``
+ input value - the value that is the modified sound wave
+ two soundwaves passed within the limits
+ two soundwaves under the lower limit
+ two soundwaves over the upper limit
+ 
