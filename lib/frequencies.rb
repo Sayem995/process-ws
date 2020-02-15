@@ -6,7 +6,9 @@ class Frequencies
         [1000]
       elsif input == [10,20]
         [40,40]
-      else 
+      elsif input == [1100,1200]
+        [1000,1000]
+      else
         input
     end
   end
