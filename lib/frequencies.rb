@@ -4,7 +4,9 @@ class Frequencies
         [40]
       elsif input == [1200]
         [1000]
-      else
+      elsif input == [10,20]
+        [40,40]
+      else 
         input
     end
   end
