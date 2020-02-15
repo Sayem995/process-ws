@@ -10,5 +10,9 @@ describe Frequencies do
       expect(subject.soundwave([20],40,1000)).to eq [40]
     end
 
+    it "should return both the soundwaves if within limit" do
+      expect(subject.soundwave([50,60],40,1000)).to eq [50,60]
+    end
+
   end
 end
